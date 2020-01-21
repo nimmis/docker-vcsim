@@ -123,7 +123,7 @@ while [[ $# -gt 0 ]]; do
 	esac
 done
 
-VC_OPT="$VC_OPT -httptest.serve $VC_httptest"
+VC_OPT="$VC_OPT -l $VC_httptest"
 
 #
 # build command 
